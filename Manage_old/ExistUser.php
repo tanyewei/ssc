@@ -14,7 +14,7 @@ include_once ROOT_PATH.'Manage/config/global.php';
 include_once ROOT_PATH.'Manage/config/config.php';
 global $ConfigModel,$sHome,$sPort;
 
-$home = $_SERVER["SERVER_NAME"];
+$home = $_SERVER["HTTP_HOST"];
 $port = $_SERVER["SERVER_PORT"];
 $lock = false;
 for ($i=0; $i<count($sHome); $i++)

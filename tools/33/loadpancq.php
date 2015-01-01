@@ -22,7 +22,7 @@ $ConfigModel = configModel("
 `g_insert_number_day`,
 `g_restore_money_lock`");
 	
-if ($_SERVER["SERVER_NAME"] != '127.0.0.1') exit;
+if ($_SERVER["HTTP_HOST"] != '127.0.0.1') exit;
 
 insertNumbers('09:50:00', $ConfigModel['g_insert_number_day'], 10, 24, 143, $ConfigModel['g_close_time']);
 

@@ -10,7 +10,7 @@ date_default_timezone_set("PRC");
 include_once ROOT_PATH.'class/DB.php';
 
 //前臺域名
-$Home[0] = 'hy.bk86.us';
+$Home[0] = 'www.test';
 $Home[1] = '';
 $Home[2] = '';
 $Home[3] = '';
@@ -35,7 +35,7 @@ $Port[9] = '';
 
 
 //代理域名
-$dHome[0] = 'dl.bk86.us';
+$dHome[0] = 'www1.test';
 $dHome[1] = '';
 $dHome[2] = '';
 $dHome[3] = '';
@@ -60,7 +60,7 @@ $dPort[9] = '';
 
 
 //导航域名
-$hHome[0] = 'f1.bk86.us';
+$hHome[0] = 'www2.test';
 $hHome[1] = '';
 $hHome[2] = '';
 $hHome[3] = '';
@@ -85,7 +85,7 @@ $hPort[9] = '';
 
 
 //後臺域名
-$sHome[0] = 'gl.bk86.us';
+$sHome[0] = 'www3.test';
 $sHome[1] = '';
 $sHome[2] = '';
 $sHome[3] = '';

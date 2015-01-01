@@ -20,7 +20,7 @@ $ConfigModel = configModel("
 `g_insert_number_day`,
 `g_close_time`");
 
-if ($_SERVER["SERVER_NAME"] != '127.0.0.1') exit;
+if ($_SERVER["HTTP_HOST"] != '127.0.0.1') exit;
 
 $number=$_GET['number'];
 

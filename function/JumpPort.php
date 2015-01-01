@@ -9,7 +9,7 @@
 if (!defined('Copyright') && Copyright != '作者QQ:1834219632')
 exit('作者QQ:1834219632');
 
-$home = $_SERVER["SERVER_NAME"];
+$home = $_SERVER["HTTP_HOST"];
 $port = $_SERVER["SERVER_PORT"];
 global $Home,$sHome,$Port,$sPort;
 $a = 0;

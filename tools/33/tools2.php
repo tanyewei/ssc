@@ -25,7 +25,7 @@ $ConfigModel = configModel("
 `g_restore_money_lock`");
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
-	if ($_SERVER["SERVER_NAME"] != '127.0.0.1') exit;
+	if ($_SERVER["HTTP_HOST"] != '127.0.0.1') exit;
 		
 	$Pid = $_POST['pid'];
 	switch ($Pid)

@@ -2,6 +2,7 @@
 define('Copyright', '作者QQ:1834219632');
 define('ROOT_PATH', $_SERVER["DOCUMENT_ROOT"].'/');
 include_once ROOT_PATH.'function/cheCookie.php';
+echo $user[0]['g_look'];
 if ($user[0]['g_look'] == 2) exit(back($UserOut));
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['VIP_PWD_old']))
 {

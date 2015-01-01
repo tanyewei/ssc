@@ -18,7 +18,7 @@ if ($ConfigModel['g_web_lock'] != 1)
 	href("/");
 	exit;
 }
-$home = $_SERVER["SERVER_NAME"];
+$home = $_SERVER["HTTP_HOST"];
 $port = $_SERVER["SERVER_PORT"];
 $lock = false;
 for ($i=0; $i<count($Home); $i++)

@@ -16,13 +16,13 @@ class DB
 	private $dbHost = 'localhost';
 	
 	//MySql数据库用户名
-	private $dbUser = 'facebak';
+	private $dbUser = 'root';
 	
 	 //MySql数据库密码 
-	private $dbPwd = 'r6v5y6n9';
+	private $dbPwd = 'aVB7eAmdyvJnY8Xr';
 	
 	//MySql数据库名称
-	private $dbName = 'facebak';
+	private $dbName = 'xixicai';
 	
 	private function connect ()
 	{
